@@ -17,8 +17,8 @@ function CheckBirthdatIsLucky(){
     const add = calculateadd(DOB);
     if(add&&DOB)
     CompareValues(add,LuckyNumber.value)
+    else
     output.innerText="Please Enter both fields 👿";
-
 }
 
 function calculateadd(DOB) {
