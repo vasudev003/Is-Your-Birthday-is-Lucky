@@ -4,7 +4,7 @@ const CheckNumberButton = document.querySelector("#check-number");
 const output = document.querySelector("#txtArea");
 function CompareValues (add, LuckyNumber) {
     if(add%LuckyNumber===0){
-        alert("Bingoo, Your Birthday is Lucky! 🤩 ");
+        alert("Bingoo 🥳 , Your Birthday is Lucky! 🤩 ");
     }
     else{
         alert("oops!😬 your birthday is not so lucky 😌, you have to work hard 🦾");
@@ -18,7 +18,7 @@ function CheckBirthdatIsLucky(){
     if(add&&DOB)
     CompareValues(add,LuckyNumber.value)
     else
-    output.innerText="Please Enter both fields 👿";
+    alert("Please Enter both fields 👿");
 }
 
 function calculateadd(DOB) {

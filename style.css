@@ -1,13 +1,15 @@
 :root {
     background-color: slategrey;
+    
 
 }
 body {
-    margin: 0.5rem;
+    
 }
 .container {
     width: 50%;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 h1{
@@ -19,14 +21,15 @@ label {
     display: block;
     text-align: center;
     font-size: larger;
-    margin: 0.5rem;
-    padding: auto;
-
 }
 
 input {
     width: 100%;
-    margin: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
     padding: 1rem;
 }
 
@@ -43,9 +46,4 @@ input {
     border-radius: 0.5rem;
     padding: 1rem;
     background: transparent;
-}
-#txtArea{
-    padding: auto;
-    margin: auto;
-    font-size: large;
 }
