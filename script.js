@@ -4,10 +4,10 @@ const CheckNumberButton = document.querySelector("#check-number");
 const output = document.querySelector("#txtArea");
 function CompareValues (add, LuckyNumber) {
     if(add%LuckyNumber===0){
-        output.innerText="your BD IS LUCKy";
+        alert("Bingoo, Your Birthday is Lucky! 🤩 ");
     }
     else{
-        output.innerText="your BD is not so lucky";
+        alert("oops!😬 your birthday is not so lucky 😌, you have to work hard 🦾");
     }
 
 }

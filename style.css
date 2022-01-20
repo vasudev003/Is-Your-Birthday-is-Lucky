@@ -1,0 +1,51 @@
+:root {
+    background-color: slategrey;
+
+}
+body {
+    margin: 0.5rem;
+}
+.container {
+    width: 50%;
+    margin: auto;
+    
+}
+h1{
+    text-align: center;
+    margin: 2rem;
+}
+
+label {
+    display: block;
+    text-align: center;
+    font-size: larger;
+    margin: 0.5rem;
+    padding: auto;
+
+}
+
+input {
+    width: 100%;
+    margin: 1.5rem;
+    padding: 1rem;
+}
+
+#check-number {
+    display: block;
+    margin-top: 1rem;
+    margin: auto;
+    border-width: medium;
+    border: 1px solid #1b17f7 ;
+    width: 200px;
+    font-size: 1.5em;
+    box-shadow: 0 7px 7px rgba(1, 1, 0.6, 0.6);
+    cursor: pointer;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    background: transparent;
+}
+#txtArea{
+    padding: auto;
+    margin: auto;
+    font-size: large;
+}
